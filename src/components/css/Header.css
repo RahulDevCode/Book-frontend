@@ -1,0 +1,105 @@
+/* Header container */
+.header {
+  background: linear-gradient(90deg, #0073ff, #01080f);
+  color: white;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Flexbox layout */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Logo */
+.logo a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.logo a:hover {
+  color: #ffd700;
+}
+
+/* Navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+/* Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-icon {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.cart-count {
+  background: #ff4757;
+  color: white;
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -12px;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.login-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.login-btn:hover {
+  background: white;
+  color: #357abd;
+}
+
+.signup-btn {
+  background: #ffd700;
+  color: #333;
+}
+
+.signup-btn:hover {
+  background: #ffcc00;
+}

@@ -1,0 +1,100 @@
+/* 📘 Book details container */
+.book-details-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background: #f8f9fa;
+}
+
+.book-details-container {
+  display: flex;
+  gap: 30px;
+  max-width: 1000px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Book image */
+.book-image img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Book info */
+.book-info {
+  flex: 1;
+}
+
+.book-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.book-author,
+.book-category,
+.book-price,
+.book-stock {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.book-description {
+  margin: 15px 0;
+  font-size: 15px;
+  color: #666;
+}
+
+/* Buttons */
+.btn-add,
+.btn-view {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+/* Add to Cart button */
+.btn-add {
+  background: #007bff;
+  color: white;
+}
+
+.btn-add:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* View Cart button */
+.btn-view {
+  background: #28a745;
+  color: white;
+}
+
+.btn-view:hover {
+  background: #1e7e34;
+  transform: scale(1.05);
+}
+
+/* Loading & Error styles */
+.loading {
+  font-size: 18px;
+  text-align: center;
+  color: #007bff;
+}
+
+.error {
+  font-size: 18px;
+  text-align: center;
+  color: red;
+}
