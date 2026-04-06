@@ -1,4 +1,4 @@
-import './css/Bookdetails.css';
+import './css/BookDetails.css';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useCart } from '../context/CartContext';
